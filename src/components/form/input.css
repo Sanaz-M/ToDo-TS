@@ -1,0 +1,45 @@
+form.input-form {
+  display: flex;
+  width: 90%;
+  position: relative;
+  align-items: center;
+}
+
+input.inputBox {
+  width: 100%;
+  border-radius: 50px;
+  padding: 20px 30px;
+  font-size: 25px;
+  transition: 0.2s;
+  border: none;
+  box-shadow: inset 0 0 5px black;
+}
+
+input.inputBox:focus {
+  box-shadow: 0 0 10px  1000px rgba(0, 0, 0, 0.589);
+  outline: none;
+}
+
+.btn-submit {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin: 12px;
+  border: none;
+  background: rgb(11, 123, 174);
+  color: white;
+  border-radius: 50px;
+  right: 0;
+  transition: 0.2s all;
+  box-shadow: 0 0 10px black;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background: rgb(26, 146, 202);
+}
+
+.btn-submit:active {
+  transform: scale(0.8);
+  box-shadow: 0 0 5px black;
+}
