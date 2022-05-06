@@ -5,9 +5,20 @@
   font-family: "Neucha", cursive;
   background-color: rgb(60, 155, 228);
   min-height: 100vh;
+}
+
+main {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+section {
+  width: 100%;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: center;
 }
 
 header {
