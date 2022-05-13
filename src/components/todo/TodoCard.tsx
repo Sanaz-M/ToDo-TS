@@ -44,7 +44,7 @@ const TodoCard = ({ todo, todos, setTodos }: Props) => {
 
 
   return (
-    <Col sm={6} md={5} className="todoCard-Col">
+    <Col sm={10} className="todoCard-Col">
       <form className="todoCard" onSubmit={(e) => handleInput(e, todo.id)}>
         {
           edit ? (
